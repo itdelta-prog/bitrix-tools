@@ -139,7 +139,7 @@ abstract class Finder
 
         $cache = Cache::createInstance();
 
-        if ($cache->initCache(static::getCacheTime(), null, static::getCacheDir() . '/' . $shard)) {
+        if ($cache->initCache(static::getCacheTime(), '', static::getCacheDir() . '/' . $shard)) {
             $items = $cache->getVars();
         } else {
             $cache->startDataCache();

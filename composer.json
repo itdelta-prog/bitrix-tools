@@ -1,18 +1,16 @@
 {
-  "name": "bitrix-expert/tools",
+  "name": "itdelta-prog/bitrix-tools",
   "description": "Helpers for developers on Bitrix",
   "keywords": ["bitrix", "iblock", "tools"],
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/bitrix-expert/tools/issues",
-    "source": "https://github.com/bitrix-expert/tools/",
-    "wiki": "https://github.com/bitrix-expert/tools/wiki"
+    "issues": "https://github.com/itdelta-prog/bitrix-tools/issues"
   },
   "authors": [
     {
-      "name": "Nik Samokhvalov",
-      "email": "nik@samokhvalov.info"
+      "name": "IT-Delta",
+      "email": "delta@it-delta.ru"
     }
   ],
   "require": {
